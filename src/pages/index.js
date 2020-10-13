@@ -7,7 +7,9 @@ import Scroll from '../components/Scroll';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
+import orbitalGIF from '../assets/images/Orbital720p.gif';
 import config from '../../config';
+
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -49,20 +51,20 @@ const IndexPage = () => (
         </header>
         <ul className="icons major">
           <li>
-            <span className="icon fa-gem major style1">
+            <span className="icon brands fa-github major style3">
               <span className="label">Lorem</span>
             </span>
           </li>
           <li>
-            <span className="icon fa-heart major style2">
+            <span className="icon brands fa-linkedin major style3">
               <span className="label">Ipsum</span>
             </span>
           </li>
-          <li>
-            <span className="icon solid fa-code major style3">
+          {/* <li>
+            <span className="icon solid fa-envelope major style3">
               <span className="label">Dolor</span>
             </span>
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>
