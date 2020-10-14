@@ -7,7 +7,7 @@ import Scroll from '../components/Scroll';
 // import sicknessTracker from '../assets/images/sicknessTracker.png'
 import sicknessTrackerGif from '../assets/images/Tracker.gif'
 import orbital from '../assets/images/orbital.png'
-import spendee from '../assets/images/spendee.png'
+import spendee from '../assets/images/spendee.gif'
 
 import config from '../../config';
 
@@ -81,7 +81,7 @@ const IndexPage = () => (
           and Material UI. Full Stack application for Edinburgh Charity to allow track sickness record, 
           provide Bradford Score and sickness pay criteria for all the employees/volunteers and generate reports.
           <br />
-          (due NDA source code or live application can't be shared)
+          (due to the NDA, source code or live application can't be shared publicly)
           </p>
         </div>
         

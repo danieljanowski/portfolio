@@ -3,6 +3,9 @@ import config from '../../config';
 export default function Footer() {
   return (
     <footer id="footer">
+      <ul className="copyright">
+        <li>These are only few of my projects. For more please go to my LinkedIn and GitHub profiles</li>
+      </ul>
       <ul className="icons">
         {config.socialLinks.map(social => {
           const { style, icon, name, url } = social;
@@ -15,12 +18,6 @@ export default function Footer() {
           );
         })}
       </ul>
-      {/* <ul className="copyright">
-        <li>&copy; Spectral</li>
-        <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
-        </li>
-      </ul> */}
     </footer>
   );
 }
