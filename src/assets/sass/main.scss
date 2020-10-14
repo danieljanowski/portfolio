@@ -186,6 +186,7 @@
 	h2 {
 		font-size: 1.35em;
 		line-height: 1.75em;
+		text-align: center;
 
 		@include breakpoint('<=small') {
 			font-size: 1.1em;
@@ -1597,6 +1598,7 @@
 			padding: 0.35em 1em;
 			position: relative;
 			z-index: 1;
+
 
 			&:before, &:after {
 				@include vendor('transition', 'width 0.85s ease');

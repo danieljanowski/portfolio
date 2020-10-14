@@ -3,11 +3,12 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
+// import orbitalGIF from '../assets/images/Orbital720p.gif';
+// import sicknessTracker from '../assets/images/sicknessTracker.png'
+import sicknessTrackerGif from '../assets/images/Tracker.gif'
+import orbital from '../assets/images/orbital.png'
+import spendee from '../assets/images/spendee.png'
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import orbitalGIF from '../assets/images/Orbital720p.gif';
 import config from '../../config';
 
 const IndexPage = () => (
@@ -37,34 +38,28 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+            About Me
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+          I am a recent graduate of CodeClan's immersive 16 week course which provides students 
+          with hands on training and solid understanding of the principles of Object Orientated Programming, 
+          Test Driven Development and Agile Methodology. 
+          <br />
+          A teaching environment comprised of agile methodologies
+          in 3-week learning blocks, 2-week project sprints and daily morning stand-ups.
           </p>
         </header>
         <ul className="icons major">
           <li>
-            <span className="icon brands fa-github major style3">
+            <a href='https://github.com/danieljanowski' className="icon brands fa-github major style3">
               <span className="label">Lorem</span>
-            </span>
+            </a>
           </li>
           <li>
-            <span className="icon brands fa-linkedin major style3">
+            <a href='https://www.linkedin.com/in/daniel-janowski/' className="icon brands fa-linkedin major style3">
               <span className="label">Ipsum</span>
-            </span>
+            </a>
           </li>
-          {/* <li>
-            <span className="icon solid fa-envelope major style3">
-              <span className="label">Dolor</span>
-            </span>
-          </li> */}
         </ul>
       </div>
     </section>
@@ -72,55 +67,89 @@ const IndexPage = () => (
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
-          <img src={pic1} alt="" />
+          <img src={sicknessTrackerGif} alt="" />
         </div>
         <div className="content">
           <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
+          Employee Absence Tracker with Bardford Score
           </h2>
+          <h3>
+            5 weeks group (2-3 people) project
+          </h3>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+          Web application in Javascript React (Hooks, Context, Router), Firebase (Firestore, Authentication)
+          and Material UI. Full Stack application for Edinburgh Charity to allow track sickness record, 
+          provide Bradford Score and sickness pay criteria for all the employees/volunteers and generate reports.
+          <br />
+          (due NDA source code or live application can't be shared)
           </p>
+        </div>
+        
+      </section>
+      <section className="spotlight">
+        <div className="image">
+          <img src={orbital} alt="" />
+        </div>
+        <div className="content">
+          <h2>
+          ORBITAL - SPACE EDUCATIONAL APP
+          </h2>
+          <h3>
+          5 days group project
+          </h3>
+          <p>
+          A interactive web application built in JavaScript, Vue.js, Express.js, MongoDB, CSS and HTML utilising Leaflet maps and 4 different public APIs. Application was able to display and filter photos from Mars Rovers, show in information about planets in interactive way, track real-time ISS position, show current people in space and display NASA photo of the day.
+          </p>
+          <ul className="actions fit">
+          {/* <li>
+            <a href={orbitalGIF} className="button fit">
+              Walkthrough
+            </a>
+          </li> */}
+          <li>
+            <a href="https://github.com/danieljanowski/JavascriptProject" className="button fit">
+              Source Code
+            </a>
+          </li>
+          <li>
+            <a href="https://orbital-space-app.herokuapp.com/" className="button fit">
+              See Live
+            </a>
+          </li>
+        </ul>
         </div>
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic2} alt="" />
+          <img src={spendee} alt="" />
         </div>
         <div className="content">
           <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
+          SPENDEE - FAMILY MONEY TRACKER
           </h2>
+          <h3>
+          5 days solo project
+          </h3>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+          My first project on CodeClan. Web application in Ruby, Sinatra, PostgreSQL, HTML, CSS, PG gem and Minitest. Allows user to log the spending, filter transactions, learn habits and manage budget. Multiuser support allows parents and children log and keep track of pocket money.
           </p>
-        </div>
-      </section>
-      <section className="spotlight">
-        <div className="image">
-          <img src={pic3} alt="" />
-        </div>
-        <div className="content">
-          <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
+          <ul className="actions fit">
+          <li>
+            <a href="https://github.com/danieljanowski/CodeClan_Wk5_Project_Family_Spending_Tracker" className="button fit">
+              Source Code
+            </a>
+          </li>
+          <li>
+            <a href="https://family-money-tracker.herokuapp.com" className="button fit">
+              See Live
+            </a>
+          </li>
+        </ul>
         </div>
       </section>
     </section>
 
-    <section id="three" className="wrapper style3 special">
+    {/* <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
           <h2>Accumsan mus tortor nunc aliquet</h2>
@@ -201,7 +230,7 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
-    </section>
+    </section> */}
   </Layout>
 );
 
