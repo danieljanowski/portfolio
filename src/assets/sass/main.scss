@@ -197,6 +197,7 @@
 	h3 {
 		font-size: 1.15em;
 		line-height: 1.75em;
+		text-align: center;
 
 		@include breakpoint('<=small') {
 			font-size: 1em;
