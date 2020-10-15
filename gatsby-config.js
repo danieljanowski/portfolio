@@ -11,6 +11,10 @@ module.exports = {
       options: {
         // replace `UA-XXXXXXXXX-X` with your own Google Analytics Tracking ID
         trackingId: `UA-180621414-1`,
+        // Puts tracking script in the head instead of the body
+        head: true,
+        // enable ip anonymization
+        anonymize: false,
       },
     },
     'gatsby-plugin-react-helmet',
