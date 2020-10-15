@@ -19,13 +19,6 @@ module.exports = {
         icon: config.manifestIcon, // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: `gatsby-plugin-gtag`,
-      options: {
-        // replace `UA-XXXXXXXXX-X` with your own Google Analytics Tracking ID
-        trackingId: `UA-180621414-1`,
-      },
-    },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
   ],
