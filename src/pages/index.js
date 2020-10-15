@@ -6,7 +6,8 @@ import Scroll from '../components/Scroll';
 // import orbitalGIF from '../assets/images/Orbital720p.gif';
 // import sicknessTracker from '../assets/images/sicknessTracker.png'
 import sicknessTrackerGif from '../assets/images/Tracker.gif'
-import orbital from '../assets/images/orbital.png'
+// import orbital from '../assets/images/orbital.png'
+import orbital from '../assets/images/orbital.gif'
 import spendee from '../assets/images/spendee.gif'
 
 import config from '../../config';
