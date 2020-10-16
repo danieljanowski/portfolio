@@ -8,7 +8,8 @@ import Scroll from '../components/Scroll';
 import sicknessTrackerGif from '../assets/images/Tracker.gif'
 // import orbital from '../assets/images/orbital.png'
 import orbital from '../assets/images/orbital.gif'
-import spendee from '../assets/images/spendee.gif'
+// import spendee from '../assets/images/spendee.gif'
+import spendee from '../assets/images/spendee.png'
 
 import config from '../../config';
 
@@ -102,11 +103,6 @@ const IndexPage = () => (
           A interactive web application built in JavaScript, Vue.js, Express.js, MongoDB, CSS and HTML utilising Leaflet maps and 4 different public APIs. Application was able to display and filter photos from Mars Rovers, show in information about planets in interactive way, track real-time ISS position, show current people in space and display NASA photo of the day.
           </p>
           <ul className="actions fit">
-          {/* <li>
-            <a href={orbitalGIF} className="button fit">
-              Walkthrough
-            </a>
-          </li> */}
           <li>
             <a href="https://github.com/danieljanowski/JavascriptProject" className="button fit">
               Source Code

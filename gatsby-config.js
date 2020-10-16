@@ -6,17 +6,17 @@ module.exports = {
     title: config.siteTitle,
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-gtag`,
-      options: {
+    // {
+      // resolve: `gatsby-plugin-gtag`,
+      // options: {
         // replace `UA-XXXXXXXXX-X` with your own Google Analytics Tracking ID
-        trackingId: `UA-180621414-1`,
+        // trackingId: ``,
         // Puts tracking script in the head instead of the body
-        head: true,
+        // head: true,
         // enable ip anonymization
-        anonymize: false,
-      },
-    },
+        // anonymize: false,
+      // },
+    // },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
