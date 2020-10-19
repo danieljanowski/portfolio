@@ -100,7 +100,7 @@ const IndexPage = () => (
           5 days group project
           </h3>
           <p>
-          A interactive web application built in JavaScript, Vue.js, Express.js, MongoDB, CSS and HTML utilising Leaflet maps and 4 different public APIs. Application was able to display and filter photos from Mars Rovers, show in information about planets in interactive way, track real-time ISS position, show current people in space and display NASA photo of the day.
+          A interactive web application built in JavaScript, Vue.js, Express.js, MongoDB, CSS and HTML utilising Leaflet maps and 4 different public APIs. Application is able to display and filter photos from Mars Rovers, show an information about planets in an interactive way, track real-time ISS position, show current people in space and display NASA photo of the day.
           </p>
           <ul className="actions fit">
           <li>

@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer id="footer">
       <ul className="copyright">
-        <li>These are only few of my projects. For more please go to my LinkedIn and GitHub profiles</li>
+        <li>These are only few of my projects. For more, including backend solutions, please go to my LinkedIn and GitHub profiles</li>
       </ul>
       <ul className="icons">
         {config.socialLinks.map(social => {
